@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="HelpMeTrain" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21512" systemVersion="23F79" minimumToolsVersion="Xcode 12.0" sourceLanguage="Swift" usesScalarValueType="YES">
+    <entity name="DailySnapshot" representedClassName="DailySnapshot" syncable="YES">
+        <attribute name="actualSteps" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="date" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="goalSteps" optional="NO" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="usedBonus" optional="NO" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="BonusState" representedClassName="BonusState" syncable="YES">
+        <attribute name="currentBalance" optional="NO" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="earnEveryN" optional="NO" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lastUpdated" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="maxBalance" optional="NO" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Settings" representedClassName="Settings" syncable="YES">
+        <attribute name="dailyStepTarget" optional="NO" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="recentHRWindowMinutes" optional="NO" attributeType="Integer 16" defaultValueString="10" usesScalarValueType="YES"/>
+    </entity>
+</model>

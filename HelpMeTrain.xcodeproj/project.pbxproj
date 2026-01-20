@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1AA00000000000000000001 /* HelpMeTrain/HelpMeTrainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA00000000000000000001 /* HelpMeTrain/HelpMeTrainApp.swift */; };
+		B1AA00000000000000000002 /* HelpMeTrain/ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA00000000000000000002 /* HelpMeTrain/ContentView.swift */; };
+		B1AA00000000000000000003 /* HelpMeTrain/DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA00000000000000000003 /* HelpMeTrain/DataController.swift */; };
+		B1AA00000000000000000004 /* HelpMeTrain/HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA00000000000000000004 /* HelpMeTrain/HealthKitManager.swift */; };
+		B1AA00000000000000000005 /* HelpMeTrain/HealthKitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA00000000000000000005 /* HelpMeTrain/HealthKitViewModel.swift */; };
+		B1AA00000000000000000006 /* HelpMeTrain/SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA00000000000000000006 /* HelpMeTrain/SettingsStore.swift */; };
+		B1AA00000000000000000007 /* HelpMeTrain/StreakManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA00000000000000000007 /* HelpMeTrain/StreakManager.swift */; };
+		B1AA00000000000000000008 /* HelpMeTrain/GraphNormalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA00000000000000000008 /* HelpMeTrain/GraphNormalizer.swift */; };
+		B1AA00000000000000001001 /* HelpMeTrain/Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA00000000000000001001 /* HelpMeTrain/Theme.swift */; };
+		B1AA00000000000000000009 /* HelpMeTrain/Models/Settings+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA00000000000000000009 /* HelpMeTrain/Models/Settings+CoreData.swift */; };
+		B1AA0000000000000000000A /* HelpMeTrain/Models/BonusState+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA0000000000000000000A /* HelpMeTrain/Models/BonusState+CoreData.swift */; };
+		B1AA0000000000000000000B /* HelpMeTrain/Models/DailySnapshot+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA0000000000000000000B /* HelpMeTrain/Models/DailySnapshot+CoreData.swift */; };
+		B1AA0000000000000000000C /* HelpMeTrainTests/HelpMeTrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA0000000000000000000C /* HelpMeTrainTests/HelpMeTrainTests.swift */; };
+		B1AA0000000000000000000D /* HelpMeTrainTests/GraphNormalizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA0000000000000000000D /* HelpMeTrainTests/GraphNormalizerTests.swift */; };
+		B1AA0000000000000000000E /* HelpMeTrainUITests/HelpMeTrainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA0000000000000000000E /* HelpMeTrainUITests/HelpMeTrainUITests.swift */; };
+		B1AA0000000000000000000F /* HelpMeTrainUITests/HelpMeTrainUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA0000000000000000000F /* HelpMeTrainUITests/HelpMeTrainUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3C27F072F1DDADC00D29ECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3C27EEC2F1DDADA00D29ECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3C27EF32F1DDADA00D29ECB;
+			remoteInfo = HelpMeTrain;
+		};
+		F3C27F112F1DDADC00D29ECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3C27EEC2F1DDADA00D29ECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3C27EF32F1DDADA00D29ECB;
+			remoteInfo = HelpMeTrain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1AA00000000000000000001 /* HelpMeTrain/HelpMeTrainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpMeTrain/HelpMeTrainApp.swift; sourceTree = SOURCE_ROOT; };
+		F1AA00000000000000000002 /* HelpMeTrain/ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpMeTrain/ContentView.swift; sourceTree = SOURCE_ROOT; };
+		F1AA00000000000000000003 /* HelpMeTrain/DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpMeTrain/DataController.swift; sourceTree = SOURCE_ROOT; };
+		F1AA00000000000000000004 /* HelpMeTrain/HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpMeTrain/HealthKitManager.swift; sourceTree = SOURCE_ROOT; };
+		F1AA00000000000000000005 /* HelpMeTrain/HealthKitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpMeTrain/HealthKitViewModel.swift; sourceTree = SOURCE_ROOT; };
+		F1AA00000000000000000006 /* HelpMeTrain/SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpMeTrain/SettingsStore.swift; sourceTree = SOURCE_ROOT; };
+		F1AA00000000000000000007 /* HelpMeTrain/StreakManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpMeTrain/StreakManager.swift; sourceTree = SOURCE_ROOT; };
+		F1AA00000000000000000008 /* HelpMeTrain/GraphNormalizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpMeTrain/GraphNormalizer.swift; sourceTree = SOURCE_ROOT; };
+		F1AA00000000000000001001 /* HelpMeTrain/Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpMeTrain/Theme.swift; sourceTree = SOURCE_ROOT; };
+		F1AA00000000000000000009 /* HelpMeTrain/Models/Settings+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HelpMeTrain/Models/Settings+CoreData.swift"; sourceTree = SOURCE_ROOT; };
+		F1AA0000000000000000000A /* HelpMeTrain/Models/BonusState+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HelpMeTrain/Models/BonusState+CoreData.swift"; sourceTree = SOURCE_ROOT; };
+		F1AA0000000000000000000B /* HelpMeTrain/Models/DailySnapshot+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HelpMeTrain/Models/DailySnapshot+CoreData.swift"; sourceTree = SOURCE_ROOT; };
+		F1AA0000000000000000000C /* HelpMeTrainTests/HelpMeTrainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpMeTrainTests/HelpMeTrainTests.swift; sourceTree = SOURCE_ROOT; };
+		F1AA0000000000000000000D /* HelpMeTrainTests/GraphNormalizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpMeTrainTests/GraphNormalizerTests.swift; sourceTree = SOURCE_ROOT; };
+		F1AA0000000000000000000E /* HelpMeTrainUITests/HelpMeTrainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpMeTrainUITests/HelpMeTrainUITests.swift; sourceTree = SOURCE_ROOT; };
+		F1AA0000000000000000000F /* HelpMeTrainUITests/HelpMeTrainUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpMeTrainUITests/HelpMeTrainUITestsLaunchTests.swift; sourceTree = SOURCE_ROOT; };
+		F3C27EF42F1DDADA00D29ECB /* HelpMeTrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelpMeTrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C27F062F1DDADC00D29ECB /* HelpMeTrainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelpMeTrainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C27F102F1DDADC00D29ECB /* HelpMeTrainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelpMeTrainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F3C27EF62F1DDADA00D29ECB /* HelpMeTrain */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HelpMeTrain;
+			sourceTree = "<group>";
+		};
+		F3C27F092F1DDADC00D29ECB /* HelpMeTrainTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HelpMeTrainTests;
+			sourceTree = "<group>";
+		};
+		F3C27F132F1DDADC00D29ECB /* HelpMeTrainUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HelpMeTrainUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3C27EF12F1DDADA00D29ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C27F032F1DDADC00D29ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C27F0D2F1DDADC00D29ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3C27EEB2F1DDADA00D29ECB = {
+			isa = PBXGroup;
+			children = (
+				F3C27EF62F1DDADA00D29ECB /* HelpMeTrain */,
+				F3C27F092F1DDADC00D29ECB /* HelpMeTrainTests */,
+				F3C27F132F1DDADC00D29ECB /* HelpMeTrainUITests */,
+				F3C27EF52F1DDADA00D29ECB /* Products */,
+				F3C27F5D2F1DF1EB00D29ECB /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		F3C27EF52F1DDADA00D29ECB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3C27EF42F1DDADA00D29ECB /* HelpMeTrain.app */,
+				F3C27F062F1DDADC00D29ECB /* HelpMeTrainTests.xctest */,
+				F3C27F102F1DDADC00D29ECB /* HelpMeTrainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3C27F5D2F1DF1EB00D29ECB /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				F1AA00000000000000000001 /* HelpMeTrain/HelpMeTrainApp.swift */,
+				F1AA00000000000000000002 /* HelpMeTrain/ContentView.swift */,
+				F1AA00000000000000000003 /* HelpMeTrain/DataController.swift */,
+				F1AA00000000000000000004 /* HelpMeTrain/HealthKitManager.swift */,
+				F1AA00000000000000000005 /* HelpMeTrain/HealthKitViewModel.swift */,
+				F1AA00000000000000000006 /* HelpMeTrain/SettingsStore.swift */,
+				F1AA00000000000000000007 /* HelpMeTrain/StreakManager.swift */,
+				F1AA00000000000000000008 /* HelpMeTrain/GraphNormalizer.swift */,
+				F1AA00000000000000000009 /* HelpMeTrain/Models/Settings+CoreData.swift */,
+				F1AA0000000000000000000A /* HelpMeTrain/Models/BonusState+CoreData.swift */,
+				F1AA0000000000000000000B /* HelpMeTrain/Models/DailySnapshot+CoreData.swift */,
+				F1AA0000000000000000000C /* HelpMeTrainTests/HelpMeTrainTests.swift */,
+				F1AA0000000000000000000D /* HelpMeTrainTests/GraphNormalizerTests.swift */,
+				F1AA0000000000000000000E /* HelpMeTrainUITests/HelpMeTrainUITests.swift */,
+				F1AA0000000000000000000F /* HelpMeTrainUITests/HelpMeTrainUITestsLaunchTests.swift */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3C27EF32F1DDADA00D29ECB /* HelpMeTrain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3C27F1A2F1DDADC00D29ECB /* Build configuration list for PBXNativeTarget "HelpMeTrain" */;
+			buildPhases = (
+				F3C27EF02F1DDADA00D29ECB /* Sources */,
+				F3C27EF12F1DDADA00D29ECB /* Frameworks */,
+				F3C27EF22F1DDADA00D29ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F3C27EF62F1DDADA00D29ECB /* HelpMeTrain */,
+			);
+			name = HelpMeTrain;
+			packageProductDependencies = (
+			);
+			productName = HelpMeTrain;
+			productReference = F3C27EF42F1DDADA00D29ECB /* HelpMeTrain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3C27F052F1DDADC00D29ECB /* HelpMeTrainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3C27F1D2F1DDADC00D29ECB /* Build configuration list for PBXNativeTarget "HelpMeTrainTests" */;
+			buildPhases = (
+				F3C27F022F1DDADC00D29ECB /* Sources */,
+				F3C27F032F1DDADC00D29ECB /* Frameworks */,
+				F3C27F042F1DDADC00D29ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3C27F082F1DDADC00D29ECB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F3C27F092F1DDADC00D29ECB /* HelpMeTrainTests */,
+			);
+			name = HelpMeTrainTests;
+			packageProductDependencies = (
+			);
+			productName = HelpMeTrainTests;
+			productReference = F3C27F062F1DDADC00D29ECB /* HelpMeTrainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3C27F0F2F1DDADC00D29ECB /* HelpMeTrainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3C27F202F1DDADC00D29ECB /* Build configuration list for PBXNativeTarget "HelpMeTrainUITests" */;
+			buildPhases = (
+				F3C27F0C2F1DDADC00D29ECB /* Sources */,
+				F3C27F0D2F1DDADC00D29ECB /* Frameworks */,
+				F3C27F0E2F1DDADC00D29ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3C27F122F1DDADC00D29ECB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F3C27F132F1DDADC00D29ECB /* HelpMeTrainUITests */,
+			);
+			name = HelpMeTrainUITests;
+			packageProductDependencies = (
+			);
+			productName = HelpMeTrainUITests;
+			productReference = F3C27F102F1DDADC00D29ECB /* HelpMeTrainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3C27EEC2F1DDADA00D29ECB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					F3C27EF32F1DDADA00D29ECB = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					F3C27F052F1DDADC00D29ECB = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = F3C27EF32F1DDADA00D29ECB;
+					};
+					F3C27F0F2F1DDADC00D29ECB = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = F3C27EF32F1DDADA00D29ECB;
+					};
+				};
+			};
+			buildConfigurationList = F3C27EEF2F1DDADA00D29ECB /* Build configuration list for PBXProject "HelpMeTrain" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3C27EEB2F1DDADA00D29ECB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F3C27EF52F1DDADA00D29ECB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3C27EF32F1DDADA00D29ECB /* HelpMeTrain */,
+				F3C27F052F1DDADC00D29ECB /* HelpMeTrainTests */,
+				F3C27F0F2F1DDADC00D29ECB /* HelpMeTrainUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3C27EF22F1DDADA00D29ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C27F042F1DDADC00D29ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C27F0E2F1DDADC00D29ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3C27EF02F1DDADA00D29ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1AA00000000000000000001 /* HelpMeTrain/HelpMeTrainApp.swift in Sources */,
+				B1AA00000000000000000002 /* HelpMeTrain/ContentView.swift in Sources */,
+				B1AA00000000000000000003 /* HelpMeTrain/DataController.swift in Sources */,
+				B1AA00000000000000000004 /* HelpMeTrain/HealthKitManager.swift in Sources */,
+				B1AA00000000000000000005 /* HelpMeTrain/HealthKitViewModel.swift in Sources */,
+				B1AA00000000000000000006 /* HelpMeTrain/SettingsStore.swift in Sources */,
+				B1AA00000000000000000007 /* HelpMeTrain/StreakManager.swift in Sources */,
+				B1AA00000000000000000008 /* HelpMeTrain/GraphNormalizer.swift in Sources */,
+				B1AA00000000000000001001 /* HelpMeTrain/Theme.swift in Sources */,
+				B1AA00000000000000000009 /* HelpMeTrain/Models/Settings+CoreData.swift in Sources */,
+				B1AA0000000000000000000A /* HelpMeTrain/Models/BonusState+CoreData.swift in Sources */,
+				B1AA0000000000000000000B /* HelpMeTrain/Models/DailySnapshot+CoreData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C27F022F1DDADC00D29ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1AA0000000000000000000C /* HelpMeTrainTests/HelpMeTrainTests.swift in Sources */,
+				B1AA0000000000000000000D /* HelpMeTrainTests/GraphNormalizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C27F0C2F1DDADC00D29ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1AA0000000000000000000E /* HelpMeTrainUITests/HelpMeTrainUITests.swift in Sources */,
+				B1AA0000000000000000000F /* HelpMeTrainUITests/HelpMeTrainUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3C27F082F1DDADC00D29ECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3C27EF32F1DDADA00D29ECB /* HelpMeTrain */;
+			targetProxy = F3C27F072F1DDADC00D29ECB /* PBXContainerItemProxy */;
+		};
+		F3C27F122F1DDADC00D29ECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3C27EF32F1DDADA00D29ECB /* HelpMeTrain */;
+			targetProxy = F3C27F112F1DDADC00D29ECB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F3C27F182F1DDADC00D29ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3L4785QYCG;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3C27F192F1DDADC00D29ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3L4785QYCG;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3C27F1B2F1DDADC00D29ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HelpMeTrain/HelpMeTrain.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L4785QYCG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "HelpMeTrain reads your step and activity data to show progress and streaks.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "HelpMeTrain does not write data to Health.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.giaccone.HelpMeTrain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3C27F1C2F1DDADC00D29ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HelpMeTrain/HelpMeTrain.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L4785QYCG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "HelpMeTrain reads your step and activity data to show progress and streaks.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "HelpMeTrain does not write data to Health.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.giaccone.HelpMeTrain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3C27F1E2F1DDADC00D29ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L4785QYCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.giaccone.HelpMeTrainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelpMeTrain.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HelpMeTrain";
+			};
+			name = Debug;
+		};
+		F3C27F1F2F1DDADC00D29ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L4785QYCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.giaccone.HelpMeTrainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelpMeTrain.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HelpMeTrain";
+			};
+			name = Release;
+		};
+		F3C27F212F1DDADC00D29ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L4785QYCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.giaccone.HelpMeTrainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelpMeTrain;
+			};
+			name = Debug;
+		};
+		F3C27F222F1DDADC00D29ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L4785QYCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.giaccone.HelpMeTrainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelpMeTrain;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3C27EEF2F1DDADA00D29ECB /* Build configuration list for PBXProject "HelpMeTrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C27F182F1DDADC00D29ECB /* Debug */,
+				F3C27F192F1DDADC00D29ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3C27F1A2F1DDADC00D29ECB /* Build configuration list for PBXNativeTarget "HelpMeTrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C27F1B2F1DDADC00D29ECB /* Debug */,
+				F3C27F1C2F1DDADC00D29ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3C27F1D2F1DDADC00D29ECB /* Build configuration list for PBXNativeTarget "HelpMeTrainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C27F1E2F1DDADC00D29ECB /* Debug */,
+				F3C27F1F2F1DDADC00D29ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3C27F202F1DDADC00D29ECB /* Build configuration list for PBXNativeTarget "HelpMeTrainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C27F212F1DDADC00D29ECB /* Debug */,
+				F3C27F222F1DDADC00D29ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3C27EEC2F1DDADA00D29ECB /* Project object */;
+}
